@@ -1,4 +1,0 @@
-ssh
-ssh-keygen -t rsa -C "wernsheng916@gmail.com"
-PS C:\Users\User> cd .\.ssh\
-PS C:\Users\User\.ssh> ls

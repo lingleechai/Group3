@@ -1,8 +1,0 @@
-git clone https://github.com/lingleechai/Group3.git
-git status
-git add .
-git commit -m "YWS"
-git pull origin master / git push origin master
-
-
-git push origin <branch name>
