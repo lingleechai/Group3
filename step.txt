@@ -1,0 +1,37 @@
+(base) Chais-MacBook-Pro:Python lingleechai$ cd 21_8_19/
+(base) Chais-MacBook-Pro:21_8_19 lingleechai$ ls
+introduction.txt
+(base) Chais-MacBook-Pro:21_8_19 lingleechai$ git init
+Initialized empty Git repository in /Users/lingleechai/Desktop/NextAcademy/Python/21_8_19/.git/
+(base) Chais-MacBook-Pro:21_8_19 lingleechai$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+(base) Chais-MacBook-Pro:21_8_19 lingleechai$ git add .
+(base) Chais-MacBook-Pro:21_8_19 lingleechai$ git commit -m "initial commit"
+[master (root-commit) 0903b5b] initial commit
+ Committer: Chai Ling Lee <lingleechai@Chais-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+ create mode 100644 introduction.txt
+(base) Chais-MacBook-Pro:21_8_19 lingleechai$ git status
+On branch master
+nothing to commit, working tree clean
+(base) Chais-MacBook-Pro:21_8_19 lingleechai$ git remote add origin https://github.com/lingleechai/Group3.git
+(base) Chais-MacBook-Pro:21_8_19 lingleechai$ git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 268 bytes | 268.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/lingleechai/Group3.git
+ * [new branch]      master -> master
+(base) Chais-MacBook-Pro:21_8_19 lingleec
